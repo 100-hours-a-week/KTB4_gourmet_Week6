@@ -171,6 +171,3 @@ LinkedHashMap → ConcurrentHashMap
 로그인 실패 → 401 Unauthorized
 중복 이메일 → 409 Conflict
 ```
-
-이번 리팩토링은 H2/JPA 적용 전에 기존 InMemory 코드의 구조를 먼저 정리한 작업입니다.
-다음 단계에서는 이 구조를 기반으로 `MemoryStore`를 제거하고 H2 DB와 JPA Repository로 전환할 예정입니다.
