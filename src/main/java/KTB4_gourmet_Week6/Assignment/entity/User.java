@@ -85,7 +85,6 @@ public class User {
     private LocalDateTime deletedAt;
 
 
-    // JPA 적용 후 회원가입에서 사용할 생성자
     public User(String email, String password, String nickname) {
         this.email = email;
         this.password = password;

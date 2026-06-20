@@ -84,7 +84,6 @@ public class Post {
     private LocalDateTime deletedAt;
 
 
-    // JPA 적용 후 게시글 생성에서 사용할 생성자
     public Post(User user, String title, String content) {
         this.user = user;
         this.title = title;

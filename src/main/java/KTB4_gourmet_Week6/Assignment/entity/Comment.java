@@ -54,7 +54,6 @@ public class Comment {
     private LocalDateTime deletedAt;
 
 
-    // JPA 적용 후 댓글 생성에서 사용할 생성자
     public Comment(Post post, User user, String content) {
         this.post = post;
         this.user = user;
